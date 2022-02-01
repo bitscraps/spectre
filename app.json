@@ -8,7 +8,7 @@
   "repository": "https://github.com/wearefriday/spectre",
   "success_url": "/",
   "scripts": {
-    "postdeploy": "bundle exec rake db:create && bundle exec rake db:schema:load"
+    "postdeploy": "bundle exec rake db:schema:load"
   },
   "formation": {
     "web": {
